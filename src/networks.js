@@ -54,7 +54,7 @@ module.exports = {
     },
     pubKeyHash: 0x19,
     scriptHash: 0x05,
-    wif: 0x99
+    wif: 0x99,
     dustThreshold: 0
   }
 }
