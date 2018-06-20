@@ -137,6 +137,19 @@ var networks = {
     dustThreshold: 10000,
     feePerKb: 100000, // https://github.com/bitcoin/bitcoin/blob/v0.9.2/src/core.h#L151-L162
     estimateFee: estimateFee('auroracoin')
+  },
+    smileycoin: {
+    messagePrefix: '\x21Smileycoin Signed Message:\n',
+    bip32: {
+      public: 0x13562D9A,
+      private: 0x1E5631BC
+    },
+    pubKeyHash: 0x19,
+    scriptHash: 0x05,
+    wif: 0x99,
+    dustThreshold: 10000,
+    feePerKb: 100000,
+    estimateFee: estimateFee('smileycoin')
   }
 }
 
